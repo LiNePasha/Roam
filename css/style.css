@@ -1,0 +1,258 @@
+/*==========================================================================================================
+========================================The Owner:Eman Ebrahim==============================================
+    1-General Style
+    2-Common Styles /
+      ├── General Style
+      ├── The Duplicate things
+      └── Change Color
+    3-Sections Styles /
+        ├── 1 -header Sec              ====(For Header Section With),
+        ├── 2 -About Us                ====(For Section About US ),
+        ├── 3 -Our Services            ====(For Section Our Service ),
+        ├── 4 -Our Portifolio          ====(For Section Our Portfolio ),
+        ├── 6 -Our Pricing             ====(For Section Our Pricing ),
+        ├── 7 -Our Team                ====(For Section Our Team ),
+        ├── 8 -Why Choose Us           ====(For Section Why Choose ),
+        ├── 9 -What That Say           ====(For Section What That S),
+        ├── 10 - Our Blog              ====(For Section Our Blog),
+        ├── 11 - Get Started           ====(For Section Get Start),
+        ├── 12 -Contact US             ====(For Section Contact ),
+        ├── 13 -Footer Top             ====(For Section Footer T),
+        └── 14 -Footer Bootom          ====(For Section Footer Boot).
+============================================================================================================*/
+
+/*=====================
+    General Style !
+=======================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: var(--MainOrangeColor);
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --WhiteColor           :  #fff;
+  --BlackColor           : #000;
+  --BlackBro             : #333;
+  --LightGrayColor       :  #ccc;
+  --LightGreenColor      :  #7cb62f;
+  --LightBlackColor      :  #232323;
+  --PdSection            : 60px 0 60px 0 ;
+  --SectionGrayColor     : #f7f7f7 ;
+  --RedColor             : #f00;
+  --MainOrangeColor      : #ff681a; 
+}
+
+.c-white {
+  color: var(--WhiteColor) !important;
+}
+
+.c-white:hover {
+  border: 1px solid green;
+}
+
+.c-logo {
+  color: var(--LightGreenColor) !important ;
+}
+.bg_white {
+  background: var(--WhiteColor) !important;
+}
+.mr_1 {
+  margin-right: 2rem;
+}
+.ml_1 {
+  margin: .5rem 0 0 2rem;
+}
+.bg_ccc {
+  background: #f6f6f6;
+}
+/* Header */
+/* .test {
+  display: block;
+} */
+
+.drtr:hover #test{
+  display: block ;
+}
+.droped {
+  position: relative;
+}
+.dropdown_hover {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7) ;
+  width: 10rem;
+  z-index: 100;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+}
+@keyframes Mona {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.dropdown_hover span {
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+.droped:hover  .dropdown_hover{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* d */
+.words {
+  position: relative;
+}
+
+.carousel_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  font-family: 'Permanent Marker', cursive;
+}
+.carousel_center h3 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.carousel_center button {
+    color: #fff;
+    background-color: var(--MainOrangeColor);
+    border: 1px solid transparent;
+    padding: 15px;
+    margin: auto;
+    display: block;
+}
+.carousel_center button:hover {
+  background: rgba(0, 0, 0, 0.774);
+}
+
+/* words */
+.words_sec {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 5rem 3rem;
+}
+.words_sec h4 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+.words_sec h6 {
+  font-family: 'Permanent Marker', cursive;
+  color: var(--MainOrangeColor);
+}
+
+/* Images */
+
+/* icons */
+.icons_sec {
+  padding: 5rem 1rem;
+  text-align: center;
+}
+.icons_sec i {
+  background: var(--MainOrangeColor);
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: var(--WhiteColor);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.icons_sec h6 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 700;
+}
+
+/* image personal */
+.personal_sec {
+  background: url("https://roam.qodeinteractive.com/wp-content/uploads/2017/08/h4-team-member-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  position: relative;
+}
+.bg_per2 {
+  background-image: url("https://roam.qodeinteractive.com/wp-content/uploads/2017/08/h4-team-member-2.jpg");
+}
+.bg_per3 {
+  background-image: url("https://roam.qodeinteractive.com/wp-content/uploads/2017/08/h4-team-member-3.jpg");
+}
+.bg_per4 {
+  background-image: url("https://roam.qodeinteractive.com/wp-content/uploads/2017/08/h4-team-member-4.jpg");
+}
+.personal_desc {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    opacity: 0;
+    padding: 10rem 0 0 1.5rem;
+    background: rgba(255,255,255,.85);
+    transition: opacity .2s ease;
+}
+.personal_sec:hover .personal_desc {
+  opacity: 1;
+}
+.personal_desc h4 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.personal_desc span {
+  margin-right: 1rem;
+}
+
+/* Count Up */
+.bg_ori {
+  background: var(--MainOrangeColor);
+}
+.count_sec {
+  text-align: center;
+  padding: 5rem 0;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 500;
+  font-size: 5rem;
+}
+.count_sec p {
+  color:white;
+  font-family: 'Balsamiq Sans', cursive;
+}
