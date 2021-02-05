@@ -155,9 +155,6 @@ body {
   background: var(--WhiteColor);
 }
 /* Header */
-/* .test {
-  display: block;
-} */
 
 .drtr:hover #test{
   display: block ;
@@ -167,6 +164,7 @@ body {
   border-right: 1px solid black;
   width: 8rem;
 }
+
 .dropdown_hover {
   position: absolute;
   background: rgba(0, 0, 0, 0.7) ;
@@ -181,14 +179,6 @@ body {
   -moz-transition: opacity .5s;
   -ms-transition: opacity .5s;
   -o-transition: opacity .5s;
-}
-@keyframes Mona {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
 }
 .dropdown_hover span {
   color: #fff;
@@ -405,7 +395,43 @@ body {
   padding: 15px 25px ;
   cursor: pointer;
 }
+/* Modern & Beutifal */
+.modern_beautiful {
+  padding: 3rem 0;
+}
+.modern_heading {
+  text-align: center;
+}
+.modern_heading h6 {
+  font-family: 'Permanent Marker', cursive;
+  color: var(--MainOrangeColor);
+}
+.modern_heading h2 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 700;
+}
+.modern_bg {
+  background: url("https://roam.qodeinteractive.com/wp-content/uploads/2017/08/h5-tour-f-img-1.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  color: var(--WhiteColor);
+  /* margin-right: 1rem; */
+  margin: 0 1rem 1rem 0;
+}
+.modern_bg span {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 7rem;
+}
+.modern_bg h4 {
+  font-family: 'Permanent Marker', cursive;
+}
+.modern_bg h3 {
+  font-family: 'Balsamiq Sans', cursive;
 
+}
 /* Video */
 .video_sec {
   width: 100%;
