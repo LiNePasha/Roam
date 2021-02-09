@@ -285,7 +285,30 @@ input:focus ~ .search-icon {
   visibility: visible;
 }
 
-
+/* boot */
+.list-group-item {
+  padding: 2rem 1rem;
+}
+.services_info {
+  border: 1px solid #f6f6f6;
+  text-align: center;
+  margin-right: 1rem;
+  margin-bottom: 1.8rem;
+  width: 30%;
+  cursor: pointer;
+  transition: border 1s;
+  -webkit-transition: border 1s;
+  -moz-transition: border 1s;
+  -ms-transition: border 1s;
+  -o-transition: border 1s;
+  padding: 10px 10px 25px 10px;
+}
+.services_info:hover {
+  border: 1px solid #007bff;
+}
+.services_info img {
+  margin: 0 3.5rem;
+}
 /* d */
 .words {
   position: relative;
@@ -434,7 +457,6 @@ input:focus ~ .search-icon {
   background-image: url("https://mivi-production.imgix.net/roam-2-feature-images/6-m.439d1ea74c8b19a46e35b18ffd1062e6.jpg");
 }
 .imagescale_sec h3 {
-  /* font-family: 'Balsamiq Sans', cursive; */
   color: var(--WhiteColor);
   font-weight: 700;
 }
